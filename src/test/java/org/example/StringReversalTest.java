@@ -8,12 +8,14 @@ import static org.junit.jupiter.api.Assertions.*;
  * 1. stringToArray() - Converts a string to an array of words.
  * 2. reverseArray() - Reverses the array of words in place.
  * 3. arrayToString() - Converts an array of words back into a single string.
+ * <p>Note: Edge case scenarios were identified with assistance from ChatGPT, an AI language model.</p>
  */
 class StringReversalTest {
 
     /**
      * Tests the stringToArray method, which converts a string into an array of words.
      * Verifies that the method correctly splits the string into words and handles different input cases.
+     * <p>Note: Edge cases were inspired by ChatGPT.</p>
      */
     @Test
     void stringToArray() {
@@ -24,7 +26,7 @@ class StringReversalTest {
         assertArrayEquals(expected, StringReversal.stringToArray(input),
                 "The string should be correctly split into an array of words.");
 
-        // Test case 2: Single word input
+        // Test case 2: Single word input (edge case)
         String singleWord = "Hello";
         String[] expectedSingle = {"Hello"};
 
@@ -35,6 +37,7 @@ class StringReversalTest {
     /**
      * Tests the reverseArray method, which reverses the order of words in the array in place.
      * Verifies that the method correctly reverses the entire array and handles single-element arrays.
+     * <p>Note: Edge cases were inspired by ChatGPT.</p>
      */
     @Test
     void reverseArray() {
@@ -48,7 +51,7 @@ class StringReversalTest {
         assertArrayEquals(expectedReversed, inputArray,
                 "The array should be reversed in place.");
 
-        // Test case 2: Reverse an array with one element
+        // Test case 2: Reverse an array with one element (edge case)
         String[] singleElementArray = {"Hello"};
         String[] expectedSingle = {"Hello"};
 
@@ -62,6 +65,7 @@ class StringReversalTest {
     /**
      * Tests the arrayToString method, which converts an array of words back into a single string.
      * Verifies that the method correctly handles normal arrays and single-element arrays.
+     * <p>Note: Edge cases were inspired by ChatGPT.</p>
      */
     @Test
     void arrayToString() {
@@ -72,7 +76,7 @@ class StringReversalTest {
         assertEquals(expectedString, StringReversal.arrayToString(inputArray),
                 "The array should be correctly converted back to a string.");
 
-        // Test case 2: Convert a single-element array to a string
+        // Test case 2: Convert a single-element array to a string (edge case)
         String[] singleElementArray = {"Hello"};
         String expectedSingle = "Hello";
 

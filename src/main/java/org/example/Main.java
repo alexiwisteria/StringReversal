@@ -6,6 +6,8 @@ package org.example;
  * 1. Convert the input string to an array of words.
  * 2. Reverse the array of words.
  * 3. Convert the reversed array back to a string.
+ *
+ * <p>Note: Comments were written with assistance from ChatGPT, an AI language model, and subsequently reviewed and edited.</p>
  */
 public class Main {
 
@@ -14,6 +16,8 @@ public class Main {
      * words in a sentence by calling helper methods from the StringReversal class.
      *
      * @param args command-line arguments (not used in this example).
+     *
+     * <p>Note: Comments were generated with the help of ChatGPT, an AI language model, and reviewed for accuracy.</p>
      */
     public static void main(String[] args) {
         // The input string we want to reverse

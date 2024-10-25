@@ -138,13 +138,6 @@ The approach and solution reflect my ability to solve problems in a structured, 
 
 ---
 
-### Future Improvements
-- Extend functionality to handle punctuation properly.
-- Allow for both word reversal and character-level reversal (e.g., reversing each word individually).
-- Add a user interface to make the application interactive.
-
----
-
 Feel free to reach out if you have any questions or suggestions for further improvements!
 
 ---
@@ -152,3 +145,6 @@ Feel free to reach out if you have any questions or suggestions for further impr
 ### Contact
 For inquiries or more information, please contact me via https://www.linkedin.com/in/alexisbinch/.
 
+---
+## Acknowledgments
+Portions of the README content, Javadocs, and comments were generated with the assistance of [ChatGPT](https://chat.openai.com), an AI language model. The content was reviewed and edited to ensure accuracy and relevance.

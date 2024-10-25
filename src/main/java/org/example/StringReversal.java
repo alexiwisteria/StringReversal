@@ -8,6 +8,13 @@ package org.example;
  * 1. Splitting a given string into an array of words.
  * 2. Reversing the array using a recursive method.
  * 3. Joining the reversed array back into a single string.
+ * </p>
+ * <p>
+ * Note: The overall logic for this method is my own. However, assistance with refining some
+ * syntax was provided by ChatGPT, an AI language model. Comments were generated with the
+ * assistance of ChatGPT, an AI language model, and then reviewed and edited.
+ * </p>
+ *
  */
 public class StringReversal {
 
