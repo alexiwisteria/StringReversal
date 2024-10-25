@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="eb740382-a3d9-4772-b7f3-06b2dbb711fe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StringReversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/StringReversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/StringReversalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/StringReversalTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +130,7 @@
       <option name="presentableId" value="Default" />
       <updated>1729728465873</updated>
       <workItem from="1729728467058" duration="3944000" />
-      <workItem from="1729816444389" duration="875000" />
+      <workItem from="1729816444389" duration="1737000" />
     </task>
     <servers />
   </component>

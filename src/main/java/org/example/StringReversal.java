@@ -12,7 +12,7 @@ package org.example;
  * <p>
  * Note: The overall logic for this method is my own. However, assistance with refining some
  * syntax was provided by ChatGPT, an AI language model. Comments were generated with the
- * assistance of ChatGPT, an AI language model, and then reviewed and edited.
+ * assistance of ChatGPT, and then reviewed and edited.
  * </p>
  *
  */
